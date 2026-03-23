@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/yashvisharma741-arch/2023Gradle.git'
+                git branch: 'master', url: 'https://github.com/yashvisharma741-arch/2023Gradle.git'
             }
         }
 
